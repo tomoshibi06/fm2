@@ -32,7 +32,7 @@ var $plugins =
 {"name":"Torigoya_SameEquipType","status":true,"description":"装備タイプ名が同じならば、同じ種別のアイテムを装備できるようにします","parameters":{}},
 {"name":"UTA_CommonSave","status":true,"description":"共有のセーブデータを作成し、指定したスイッチ・変数の状態をセーブデータ間で共有します。","parameters":{"Target Switches":"","Target Variables":"","Is Auto":"true","Auto on Gameover":"false","Show Trace":"false"}},
 {"name":"UTA_MessageSkip","status":true,"description":"特定キーを押す事でメッセージをスキップできるようにします。","parameters":{"Skip Key":"s","Show Trace":"false"}},
-{"name":"VersionSpecified","status":true,"description":"【MMP ver.1.0】タイトル画面にバージョンを明記します。","parameters":{"version":"Version 2.0","fontSize":"20","fontColor":"rgb(255, 255, 255)","windowX":"540","windowY":"560"}},
+{"name":"VersionSpecified","status":true,"description":"【MMP ver.1.0】タイトル画面にバージョンを明記します。","parameters":{"version":"Version 2.1","fontSize":"20","fontColor":"rgb(255, 255, 255)","windowX":"540","windowY":"560"}},
 {"name":"YEP_BaseTroopEvents","status":true,"description":"v1.01 Enabling this plugin will cause all troops to have\r\nevents occur in every fight.","parameters":{"Base Troop ID":"1"}},
 {"name":"YEP_BattleAICore","status":true,"description":"v1.15 This plugin allows you to structure battle A.I.\npatterns with more control.","parameters":{"Dynamic Actions":"true","Dynamic Turn Count":"false","Element Testing":"true","Default AI Level":"100"}},
 {"name":"setItemMax","status":true,"description":"アイテムの最大所持個数をアイテムIdごとに指定できます。","parameters":{}},
@@ -63,5 +63,6 @@ var $plugins =
 {"name":"AnimationFrameRate","status":true,"description":"アニメフレームレート","parameters":{"framerate:1":"!","framerate:2":"&","framerate:3":"$","framerate:5":"#","framerate:6":"%"}},
 {"name":"TriggerOnEquipAndState","status":true,"description":"装備変更時の変数操作プラグイン","parameters":{"BattleMemberOnly":"true","SlotVariables":"[\"0\",\"0\",\"0\",\"0\",\"0\"]"}},
 {"name":"TMEnemyActionEx","status":true,"description":"敵キャラの行動パターン決定処理を修正します。","parameters":{}},
-{"name":"MNKR_AddIconSave_alt","status":true,"description":"セーブデータにアイコンを追加表示できます。","parameters":{"iconVariableId1":"61","iconVariableId2":"62","iconVariableId3":"63"}}
+{"name":"MNKR_AddIconSave_alt","status":true,"description":"セーブデータにアイコンを追加表示できます。","parameters":{"iconVariableId1":"61","iconVariableId2":"62","iconVariableId3":"63"}},
+{"name":"DynamicBattlerParam","status":true,"description":"バトラーパラメータの動的設定プラグイン","parameters":{"最大HP計算式":"","最大MP計算式":"","攻撃力計算式":"","防御力計算式":"","魔法力計算式":"","魔法防御計算式":"","敏捷性計算式":"","運計算式":"","命中率計算式":"","回避率計算式":"","会心率計算式":"","会心回避計算式":"","魔法回避計算式":"","魔法反射計算式":"","反撃計算式":"","HP再生計算式":"","MP再生計算式":"","TP再生計算式":"","狙われ率計算式":"","防御効果率計算式":"","回復効果率計算式":"","薬の知識計算式":"","MP消費率計算式":"","TPチャージ率計算式":"","物理ダメージ率計算式":"Math.max(param,0.1)","魔法ダメージ率計算式":"Math.max(param,0.1)","床ダメージ率計算式":"","経験獲得率計算式":""}}
 ];
